@@ -283,3 +283,21 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+.whatsapp-icon {
+  position: absolute;
+  top: 20px; /* Ajuste a distância do topo */
+  right: 20px; /* Ajuste a distância da direita */
+  font-size: 24px; /* Tamanho do ícone */
+  color: #25d366; /* Cor do WhatsApp */
+  background-color: rgb(0, 0, 0); /* Fundo do ícone */ 
+  border-radius: 50%; /* Deixa o ícone redondo */
+  padding: 10px; /* Espaçamento interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animação suave */
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+  background-color: #25d366; /* Muda a cor de fundo ao passar o mouse */
+  color: white; /* Muda a cor do ícone ao passar o mouse */
+}
